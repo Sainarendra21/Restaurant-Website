@@ -1,0 +1,11 @@
+{%extends 'pizza/base.html' %}
+{%block 'body'%}
+<div class="text-center">
+<h2>Edit your order</h2>
+<h2>{{note}}</h2>
+<form  action="{%url 'edit_order' pizza.id %}" method="post">{%csrf_token%}
+	{{ Pizzaform }}
+	<input type="submit" value="Order pizza">
+	</form>
+</div>
+{%endblock%}
