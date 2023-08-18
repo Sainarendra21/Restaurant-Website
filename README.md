@@ -35,7 +35,7 @@ This is a restaurant website developed using HTML, CSS, and Django. The website 
 - SQLite (default database)
 
 
-### Follow Me
+## Follow Me
 
 You can find me on various social media platforms. Feel free to connect!
 
